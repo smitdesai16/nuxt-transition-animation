@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`about renders properly 1`] = `
+"<div class=\\"container-xl\\">
+  <div class=\\"row\\">
+    <div class=\\"col-12\\">
+      <h1>
+        About
+      </h1>
+    </div>
+  </div>
+</div>"
+`;
