@@ -80,8 +80,8 @@ export default {
 	},
 	router: {
 		middleware: [
-			'navbar_middleware',
-			'ga_middleware'
+			'ga_middleware',
+			'page_middleware'
 		]
 	},
 	pwa: {

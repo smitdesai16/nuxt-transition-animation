@@ -1,5 +1,5 @@
 <template>
-	<div class="container-xl">
+	<div class="container-sm">
 		<div class="row">
 			<div class="col-12">
 				<h1>

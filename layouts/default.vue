@@ -1,18 +1,16 @@
 <template>
 	<div>
-		<NavBar />
+		<Main />
 		<nuxt />
-		<Footer project-start-year="2020" />
 	</div>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
-import NavBar from '@/components/NavBar.vue'
-import Footer from '@/components/Footer.vue'
+import Main from '@/components/main.vue'
 
 @Component({
-	components: { NavBar, Footer }
+	components: { Main }
 })
 export default class DefaultLayout extends Vue {
 
